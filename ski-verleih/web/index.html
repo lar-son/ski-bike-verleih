@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ski-Verleih</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">Ski-Verleih</a>
+    <nav id="nav">
+      <a href="#/" data-route="">Dashboard</a>
+      <a href="#/ski" data-route="ski">Ski-Verwaltung</a>
+      <a href="#/personen" data-route="personen">Personen</a>
+      <a href="#/reservierungen" data-route="reservierungen">Reservierungen</a>
+    </nav>
+  </header>
+
+  <main class="container"><section class="card" id="app">Lade …</section></main>
+
+  <dialog id="dlg"><form id="dlgForm"></form></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
